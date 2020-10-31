@@ -1,0 +1,25 @@
+.btn{
+    border: 2px solid $primary-color;
+    border-radius: 0%;
+    color: $primary-color !important;
+    margin-top: 20px;
+    
+    &:hover{
+        color: white !important ;
+        background-color: $primary-color;
+    }
+    
+}
+
+.btn-insta{
+    border: 2px solid $primary-color;
+    border-radius: 0%;
+    color: white !important;
+    background-color: $primary-color;
+    display: inline-block;
+    margin-top: 200px;
+    &:hover{
+         text-decoration: none;
+    }
+
+}

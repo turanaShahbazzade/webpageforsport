@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My third big project</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/669227d1ac.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img class="img-fluid" src="img/logo-light.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  HOME
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  >PAGES <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  >ELEMENTS <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  >PORTFOLIO<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  >SHOP<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  >BLOG<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  ><i class="fas fa-shopping-cart position-relative"></i
+                  ><span class="sr-only">(current)</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!--
+-ikinci sectionda row col-4 ve col-5 bolunub 12ye tamamlanmayib ve col-4-un icinde textleri saxlamaq ucun bir div yazib ona css verilse daha yaxsi olardi,col-4-e hemcinin text-align right verilmeyib
+-ucuncu section duz yazilib
+-dorduncu sectionda li classi nav-itemlere col-lg-4 col-md-6 classi verilseydi daha duzgun olardi
+-besinci sectionda hemcinin textleri yerlesdirmek ucun col-a umumi padding top verilib duzgun css propertylerinden ist olunmayb
+-footerde de hemcinin textlere duzgun flex-propertyler verilmeyb
+-responsivlikde x oxu boyunca scroll yaranir(sebebler h p taglarinin font-sizeleri yuxarda yazdigim textlere umumi paddingle marginle asagi yuxari salnmamis yeni duzgun flex-propertylerinden ist olunmamsi)
+umumulikde normaldi -->
+      <section id="intro">
+        <div class="container">
+          <div class="row flex-column ">
+            <div class="col-md-6">
+              <div class="text">
+                <h1 class="mb-0">BEND DOBSON</h1>
+                <h5 class="pt-0  mt-0">PERSONAL TRAINING & DIETARY ADVICE</h5>
+                <p>
+                  “Everyone deserves good health and happiness. My goal is to
+                  help people achieve both.”
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="fitness">
+        <div class="container">
+          <div class="row justify-content-center align-items-start">
+            <div class="col-md-4 offset-md-1">
+              <h1 class="text-white">FITNESS FOR LIFE</h1>
+              <h5 class="text-white">
+                “MY PASSION IS MOTIVATING PEOPLE TO GET RESULTS”
+              </h5>
+               
+            </div>
+            
+                 
+            <div class="col-md-5 text-fitness">
+               <hr class="d-lg-none w-auto d-md-none">
+              <p class="first-p text-white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+              <img class="img-fluid" src="img/fitness1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="training">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 p-0">
+              <div class="image-holder">
+                <img class="img-fluid" src="img/fitness6.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="text-training">
+                <h1>INDIVIDUAL TRAINING</h1>
+                <p>
+                  Perfect for those who need a little extra motivation. You'll
+                  receive a fully personalized workout and dietary program that
+                  we'll monitor together.
+                </p>
+                <h6>FLEXIBLE BOOKING TIMES</h6>
+                <h6>PERSONAL DIETARY ADVICE</h6>
+                <h6>MULTI-SESSION DISCOUNTS</h6>
+                <h6>WEEKLY PROGRESS TRACKING</h6>
+                <a class="btn btn-lg" href="#">Book A Session Now</a>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="text-training">
+                <h1>GROUP TRAINING</h1>
+                <p>
+                  Training in a positively charged environment, we work together
+                  to achieve our own goals. Groups are made up of 10 - 15 people
+                  and cater to all ability levels.
+                </p>
+                <h6>COME TO ANY SESSION</h6>
+                <h6></h6>
+                <h6>MULTI-SESSION DISCOUNTS</h6>
+                <h6>TRAIN WITH FRIENDS</h6>
+                <a class="btn btn-lg" href="#">Book A Session Now</a>
+              </div>
+            </div>
+            <div class="col-md-6 p-0">
+              <div class="image-holder">
+                <img class="img-fluid" src="img/fitness6.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section id="weekly">
+        <div class="container">
+          <div class="row text-center align-items-start justify-content-center">
+            <div class="col-lg-12">
+              <div class="text-weekly">
+                <h1 class="text-muted text-grey">WEEKLY SCHEDULE</h1>
+              </div>
+            </div>
+
+            <ul
+              class="nav nav-pills mb-3 justify-content-center pt-5"
+              id="pills-tab"
+              role="tablist"
+            >
+              <div class="col-lg-4 col-md-6">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    id="pills-home-tab"
+                    data-toggle="pill"
+                    href="#pills-home"
+                    role="tab"
+                    aria-controls="pills-home"
+                    aria-selected="true"
+                    >MONDAY</a
+                  >
+                </li>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="pills-profile-tab"
+                    data-toggle="pill"
+                    href="#pills-profile"
+                    role="tab"
+                    aria-controls="pills-profile"
+                    aria-selected="false"
+                    >WEDNESDAY</a
+                  >
+                </li>
+              </div>
+
+              <div class="col-lg-4">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="pills-contact-tab"
+                    data-toggle="pill"
+                    href="#pills-contact"
+                    role="tab"
+                    aria-controls="pills-contact"
+                    aria-selected="false"
+                    >FRIDAY</a
+                  >
+                </li>
+              </div>
+            </ul>
+
+            <div class="tab-content w-100" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+                aria-labelledby="pills-home-tab"
+              >
+                <div
+                  class="row justify-content-center align-items-start text-center pt-5"
+                >
+                  <div class="col-lg-4">
+                    <div class="timetable-text">
+                      <h6 class="uppercase mb8">06:00am - 07:00am</h6>
+                      <h4>Clapham Park</h4>
+                      <p class="mb0">
+                        434 Bauer Road
+                        <br />
+                        South Melbourne, 3008 <br />
+                        <a href="#">Get Directions</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <a class="btn btn-lg" href="#">Book A Session Now</a>
+                  </div>
+                </div>
+                <hr />
+                <div
+                  class="row justify-content-center align-items-start text-center pt-5"
+                >
+                  <div class="col-lg-4">
+                    <div class="timetable-text">
+                      <h6 class="uppercase mb8">06:00am - 07:00am</h6>
+                      <h4>Clapham Park</h4>
+                      <p class="mb0">
+                        434 Bauer Road
+                        <br />
+                        South Melbourne, 3008 <br />
+                        <a href="#">Get Directions</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <a class="btn btn-lg" href="#">Book A Session Now</a>
+                  </div>
+                </div>
+                <hr />
+                <div
+                  class="row justify-content-center align-items-start text-center pt-5"
+                >
+                  <div class="col-lg-4">
+                    <div class="timetable-text">
+                      <h6 class="uppercase mb8">06:00am - 07:00am</h6>
+                      <h4>Clapham Park</h4>
+                      <p class="mb0">
+                        434 Bauer Road
+                        <br />
+                        South Melbourne, 3008 <br />
+                        <a href="#">Get Directions</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <a class="btn btn-lg" href="#">Book A Session Now</a>
+                  </div>
+                </div>
+                <hr />
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-profile"
+                role="tabpanel"
+                aria-labelledby="pills-profile-tab"
+              >
+                <div
+                  class="row justify-content-center align-items-start text-center pt-5"
+                >
+                  <div class="col-lg-4">
+                    <div class="timetable-text">
+                      <h6 class="uppercase mb8">06:00am - 07:00am</h6>
+                      <h4>Clapham Park</h4>
+                      <p class="mb0">
+                        434 Bauer Road
+                        <br />
+                        South Melbourne, 3008 <br />
+                        <a href="#">Get Directions</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <a class="btn btn-lg" href="#">Book A Session Now</a>
+                  </div>
+                </div>
+                <hr />
+                <div
+                  class="row justify-content-center align-items-start text-center pt-5"
+                >
+                  <div class="col-lg-4">
+                    <div class="timetable-text">
+                      <h6 class="uppercase mb8">06:00am - 07:00am</h6>
+                      <h4>Clapham Park</h4>
+                      <p class="mb0">
+                        434 Bauer Road
+                        <br />
+                        South Melbourne, 3008 <br />
+                        <a href="#">Get Directions</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <a class="btn btn-lg" href="#">Book A Session Now</a>
+                  </div>
+                </div>
+                <hr />
+                <div
+                  class="row justify-content-center align-items-start text-center pt-5"
+                >
+                  <div class="col-lg-4">
+                    <div class="timetable-text">
+                      <h6 class="uppercase mb8">06:00am - 07:00am</h6>
+                      <h4>Clapham Park</h4>
+                      <p class="mb0">
+                        434 Bauer Road
+                        <br />
+                        South Melbourne, 3008 <br />
+                        <a href="#">Get Directions</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <a class="btn btn-lg" href="#">Book A Session Now</a>
+                  </div>
+                </div>
+                <hr />
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-contact"
+                role="tabpanel"
+                aria-labelledby="pills-contact-tab"
+              >
+                <div
+                  class="row justify-content-center align-items-start text-center pt-5"
+                >
+                  <div class="col-lg-4">
+                    <div class="timetable-text">
+                      <h6 class="uppercase mb8">06:00am - 07:00am</h6>
+                      <h4>Clapham Park</h4>
+                      <p class="mb0">
+                        434 Bauer Road
+                        <br />
+                        South Melbourne, 3008 <br />
+                        <a href="#">Get Directions</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <a class="btn btn-lg" href="#">Book A Session Now</a>
+                  </div>
+                </div>
+                <hr />
+                <div
+                  class="row justify-content-center align-items-start text-center pt-5"
+                >
+                  <div class="col-lg-4">
+                    <div class="timetable-text">
+                      <h6 class="uppercase mb8">06:00am - 07:00am</h6>
+                      <h4>Clapham Park</h4>
+                      <p class="mb0">
+                        434 Bauer Road
+                        <br />
+                        South Melbourne, 3008 <br />
+                        <a href="#">Get Directions</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <a class="btn btn-lg" href="#">Book A Session Now</a>
+                  </div>
+                </div>
+                <hr />
+                <div
+                  class="row justify-content-center align-items-start text-center pt-5"
+                >
+                  <div class="col-lg-4">
+                    <div class="timetable-text">
+                      <h6 class="uppercase mb8">06:00am - 07:00am</h6>
+                      <h4>Clapham Park</h4>
+                      <p class="mb0">
+                        434 Bauer Road
+                        <br />
+                        South Melbourne, 3008 <br />
+                        <a href="#">Get Directions</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <a class="btn btn-lg" href="#">Book A Session Now</a>
+                  </div>
+                </div>
+                <hr />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section id="jane">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-md-offset-1 col-sm-6 text-jane">
+              <h4 class="">
+                “TRAINING WITH BEN HAS BEEN TOUGH AS HELL, AND A TON OF FUN.
+                I'VE NEVER FELT BETTER ABOUT MYSELF!”
+              </h4>
+              <p>JANE SIMPSON - CLIENT OF 2 YEARS</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="instagram">
+        <div class="container">
+          <div
+            class="row text-center flex-column justify-content-center align-items-center"
+          >
+            <div class="col-sm-6 col-sm-offset-3">
+              <h2 class="mt-5 position-relative text-white">
+                <i class="fab fa-instagram text-white"></i> BENDOBSONFITNESS
+              </h2>
+              <p class="text-white">
+                Follow me on Instagram for workout inspiration and shots from
+                our
+                <br />
+                awesome group fitness sessions.
+              </p>
+
+              <a class="btn-insta btn-lg" href="#">See more on Instagram</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="cards">
+        <div class="container">
+          <div class="row text-center justify-content-center">
+            <div class="col-lg-12">
+              <h1 class="">INSIGHTS</h1>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <p class="card-title">August 3, 2015 in Fitness</p>
+                  <h5 class="card-text">
+                    MAINTAINING ACTIVITY WITHIN THE FAT-BURNING ZONE
+                  </h5>
+                  <a href="#" class="btn">READ INSIDE </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <p class="card-text">
+                    August 1, 2015 in Diet
+                  </p>
+                  <h5 class="card-title">TIPS FOR AVOIDING OVER CONSUMPTION</h5>
+                  <a href="#" class="btn">READ INSIDE</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <p class="card-title">July 24, 2015 in Motivation</p>
+                  <h5 class="card-text">
+                    RETURNING TO FITNESS AFTER LONG PERIODS - WHAT NOT TO DO
+                  </h5>
+                  <a href="#" class="btn">READ INSIDE </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section id="contact">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-5 text-fitness">
+              <h1 class="text-white">
+                LET'S SMASH <br />
+                YOUR GOALS <br />
+                TOGETHER
+              </h1>
+            </div>
+
+            <div class="col-md-2 hidden-sm hidden-xs">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <div class="col-md-5">
+              <p class="text-white question-p">
+                Questions, bookings or feedback? Contact me by any of the
+                channels below. I'll respond ASAP!
+              </p>
+              <h4 class="text-white">
+                P: 0417 374 992
+              </h4>
+              <h4 class="text-white">
+                <i class="fab fa-twitter"></i>E: train@bendobson.net
+              </h4>
+            </div>
+            <div
+              class="row d-flex flex-column justify-content-center align-items-center small align-items-between"
+            >
+              <div class="col-lg-12">
+                <span class="text-white"
+                  >Handcrafted by Medium Rare © 2015</span
+                >
+                <br />
+                <span class="text-white">Built with Variant Page Builder</span>
+                <div class="icons">
+                  <i class="fab fa-twitter text-white"></i>
+                  <i class="fab fa-facebook-f text-white"></i>
+                  <i class="fab fa-instagram text-white"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
